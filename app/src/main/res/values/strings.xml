@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">saldoNaRede</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_login">E-mail</string>
+    <string name="hint_name">Name</string>
+    <string name="login_button">Login</string>
+    <string name="link_register">Registrar-se</string>
+    <string name="save_register">Salvar</string>
+</resources>

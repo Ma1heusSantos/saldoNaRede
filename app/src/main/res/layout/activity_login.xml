@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_login"
+        android:textColor="@color/yellow"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_above="@id/edit_login"
+        android:layout_marginBottom="32dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_login"
+        android:layout_width="match_parent"
+        android:hint="@string/hint_login"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/yellow"
+        android:layout_above="@id/edit_password"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/yellow"
+        android:layout_centerInParent="true"
+        android:hint="@string/hint_password"
+        />
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:text="@string/link_register"
+        android:textColor="@color/yellow"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/edit_password"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:autoLink="all"/>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        android:text="@string/login_button"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

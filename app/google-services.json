@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "697396059771",
+    "project_id": "saldonarede-ed633",
+    "storage_bucket": "saldonarede-ed633.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697396059771:android:9f92dc4a278a42d9ac8cde",
+        "android_client_info": {
+          "package_name": "com.example.saldonarede"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMxU-zr68ywzxmNRW1o-AJfOILDQyC_f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
